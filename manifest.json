@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Business Info Scraper AI",
+  "name": "ScopeSnap",
   "version": "1.0",
   "permissions": ["scripting", "tabs", "activeTab"],
   "action": {
