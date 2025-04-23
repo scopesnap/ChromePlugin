@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ScopeSnap</title>
+</head>
+<body>
+  <button id="scrape-btn">Generate Description</button>
+
+  <h4>Services:</h4>
+  <div id="services-list"></div>
+
+  <h4>Opening Hours:</h4>
+  <div id="hours-list"></div>
+
+  <textarea id="gpt-services" placeholder="Feedback for services (optional)"></textarea>
+  <textarea id="gpt-hours" placeholder="Feedback for hours (optional)"></textarea>
+  <button id="submit-feedback">Submit Feedback</button>
+
+  <style>
+    .copy-btn {
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    textarea {
+      width: 100%;
+      margin-top: 5px;
+    }
+  </style>
+
+  <script src="popup.js"></script>
+</body>
+</html>
